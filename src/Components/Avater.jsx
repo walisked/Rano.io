@@ -1,9 +1,11 @@
-import React from 'react'
-
-export const Avater = () => {
+ import React from "react"
+ import Image from "../Asset/NBackgroundjpg.jpg"
+ const Avater = () => {
   return (
     <div>
-        <img class="rounded w-36 h-36" src="/docs/images/people/profile-picture-5.jpg" alt="Extra large avatar"></img>
+        <img class="rounded w-36 h-36" src={Image} alt="avatar"></img>
     </div>
   )
 }
+
+export default Avater

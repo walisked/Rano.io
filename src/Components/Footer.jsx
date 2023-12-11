@@ -1,6 +1,7 @@
 import React from "react";
 
 export const Footer = () => {
+ const currentYear = new Date().getFullYear()
   return (
     <div>
       {/* <!-- component --> */}
@@ -8,10 +9,9 @@ export const Footer = () => {
         <div class="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div>
-              <img src="#" class="mr-5 h-6 sm:h-9" alt="logo" />
+              {/* <img src="#" class="mr-5 h-6 sm:h-9" alt="logo" /> */}
               <p class="max-w-xs mt-4 text-sm text-gray-600">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas, accusantium.
+                Social Media Studior: Content Creation Company
               </p>
               <div class="flex mt-8 space-x-6 text-gray-600">
                 <a
@@ -170,10 +170,6 @@ export const Footer = () => {
                     {" "}
                     FAQs{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
-                    {" "}
-                    Live Chat{" "}
-                  </a>
                 </nav>
               </div>
               <div>
@@ -199,7 +195,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <p class="mt-8 text-xs text-gray-800">© 2022 Comany Name</p>
+          <p class="mt-8 text-xs text-gray-800"> Made © {currentYear} ❤️ Social Media Studior</p>
         </div>
       </footer>
     </div>
