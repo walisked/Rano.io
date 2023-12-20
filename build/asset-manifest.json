@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Rano_profile/static/css/main.4820f218.css",
+    "main.js": "/Rano_profile/static/js/main.e7905e91.js",
+    "static/js/787.9c86b36b.chunk.js": "/Rano_profile/static/js/787.9c86b36b.chunk.js",
+    "static/media/NBackgroundjpg.jpg": "/Rano_profile/static/media/NBackgroundjpg.95a887be2748b490eb5c.jpg",
+    "index.html": "/Rano_profile/index.html",
+    "main.4820f218.css.map": "/Rano_profile/static/css/main.4820f218.css.map",
+    "main.e7905e91.js.map": "/Rano_profile/static/js/main.e7905e91.js.map",
+    "787.9c86b36b.chunk.js.map": "/Rano_profile/static/js/787.9c86b36b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4820f218.css",
+    "static/js/main.e7905e91.js"
+  ]
+}
